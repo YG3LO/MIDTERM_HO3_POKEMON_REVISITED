@@ -1,0 +1,116 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #ff6f61;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+    .search-container input {
+        width: 300px;
+        padding: 0.5rem;
+        margin-right: 1rem;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+
+    .search-container button {
+        padding: 0.5rem 1rem;
+        background-color: #ff6f61;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+        .search-container button:hover {
+            background-color: #e65a50;
+        }
+
+.filters-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.filter-dropdown {
+    padding: 0.5rem;
+    margin: 0 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.pokemon-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+}
+
+    .card:hover {
+        transform: scale(1.05);
+    }
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.card-text {
+    font-size: 1em;
+    color: #666;
+}
+
+    .card-text strong {
+        color: #ff6f61;
+    }
+
+.card-footer {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #777;
+}
